@@ -16,7 +16,7 @@ namespace TagHelperDemo
         {
             BuildWebHost(args).Run();
         }
-
+//hellodemo
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
